@@ -36,3 +36,10 @@
 4	1204	7950672841928123	build.ninja	4e9353fa31af5954
 6	1999	7950673125155720	app/CMakeFiles/GraphPersonApp.dir/main.cpp.obj	8c16531fd42281b4
 2000	3579	7950673145093001	app/GraphPersonApp.exe	e68b3840e812c6c5
+6	1165	7950736257426538	CMakeFiles/GraphPersonAnalyzer.dir/src/filters/CompositeFilter.cpp.obj	35ae9e6659a016c9
+208	1437	7950736259439976	CMakeFiles/GraphPersonAnalyzer.dir/src/filters/IFilter.cpp.obj	75d5c24467cd9a9d
+217	2239	7950736259539955	app/CMakeFiles/GraphPersonApp.dir/main.cpp.obj	8c16531fd42281b4
+1438	2565	7950736271740231	libGraphPersonAnalyzer.a	b06780859fa04d31
+2565	4236	7950736283021962	app/GraphPersonApp.exe	e68b3840e812c6c5
+7	3175	7950736361452995	test/CMakeFiles/runGlobalTests.dir/test_global.cpp.obj	24d7fa3830a7daef
+3176	8310	7950736393140643	test/runGlobalTests.exe	ec0adec3305faad1

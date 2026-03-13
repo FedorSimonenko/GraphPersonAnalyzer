@@ -22,12 +22,6 @@ public:
         }
     }
     
-    void addFilterShared(std::shared_ptr<IFilter> filter) {
-        if (filter) {
-            filters.push_back(filter->clone());
-        }
-    }
-    
     bool passes(const Person& person) const override {
         if (filters.empty()) return true;
         
