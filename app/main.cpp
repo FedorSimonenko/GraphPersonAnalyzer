@@ -396,10 +396,10 @@ public:
         }
 
         const auto& person = allPeople[index-1];
-        std::cout << "Starting station (1-5): ";
+        std::cout << "Starting station: ";
         short start;
         std::cin >> start;
-        std::cout << "Number of steps (1-3): ";
+        std::cout << "Number of steps: ";
         int steps;
         std::cin >> steps;
         steps = std::min(3, std::max(1, steps));
