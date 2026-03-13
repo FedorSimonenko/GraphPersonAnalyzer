@@ -1,0 +1,3 @@
+GlobalTests 2 0
+---
+GlobalTests

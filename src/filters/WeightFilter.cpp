@@ -1,0 +1,2 @@
+#include "filters/WeightFilter.hpp"
+

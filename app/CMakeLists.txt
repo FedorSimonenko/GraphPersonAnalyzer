@@ -1,0 +1,2 @@
+add_executable(GraphPersonApp main.cpp)
+target_link_libraries(GraphPersonApp PRIVATE GraphPersonAnalyzer)
