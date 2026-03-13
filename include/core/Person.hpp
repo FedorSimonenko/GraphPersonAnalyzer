@@ -35,11 +35,11 @@ namespace graph_analyzer {
         double getResidense() const;
 
         static constexpr size_t getMinAge() {return 3;}
-        static constexpr size_t getMaxAge() {return 150;}
+        static constexpr size_t getMaxAge() {return 120;}
         static constexpr size_t getMinWeight() {return 12;}
-        static constexpr size_t getMaxWeight() {return 300;}
+        static constexpr size_t getMaxWeight() {return 240;}
         static constexpr size_t getMinHeight() {return 80;}
-        static constexpr size_t getMaxHeight() {return 300;}
+        static constexpr size_t getMaxHeight() {return 270;}
     };
 
 }
