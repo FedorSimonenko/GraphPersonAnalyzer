@@ -76,40 +76,6 @@ protected:
         allPeople.insert(allPeople.end(), seniors.begin(), seniors.end());
     }
 
-    std::vector<short> findPath(short start, short target, const Graph& g) {
-        std::unordered_map<short, short> parent;
-        std::queue<short> q;
-        std::unordered_set<short> visited;
-
-        q.push(start);
-        visited.insert(start);
-        parent[start] = start;
-
-        while (!q.empty()) {
-            short current = q.front();
-            q.pop();
-
-            if (current == target) {
-                std::vector<short> path;
-                for (short v = target; v != start; v = parent[v]) {
-                    path.push_back(v);
-                }
-                path.push_back(start);
-                std::reverse(path.begin(), path.end());
-                return path;
-            }
-
-            for (short neighbor : g[current]) {
-                if (!visited.count(neighbor)) {
-                    visited.insert(neighbor);
-                    parent[neighbor] = current;
-                    q.push(neighbor);
-                }
-            }
-        }
-        return {};
-    }
-
     std::vector<std::pair<short, short>> pathToRoutes(const std::vector<short>& path) {
         std::vector<std::pair<short, short>> routes;
         for (size_t i = 0; i < path.size() - 1; ++i) {
@@ -245,7 +211,7 @@ TEST_F(IntegrationTest, FullRouteBuildingTest) {
     std::cout << "\nBuilt route: ";
     for (size_t i = 0; i < path.size(); ++i) {
         std::cout << path[i];
-        if (i < path.size() - 1) std::cout << " → ";
+        if (i < path.size() - 1) std::cout << " -> ";
     }
     std::cout << "\n";
 

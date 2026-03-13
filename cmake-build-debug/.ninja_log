@@ -91,3 +91,7 @@
 3043	4884	7951367098906891	app/GraphPersonApp.exe	e68b3840e812c6c5
 7	2483	7951372830250010	app/CMakeFiles/GraphPersonApp.dir/main.cpp.obj	8c16531fd42281b4
 2484	4367	7951372855024198	app/GraphPersonApp.exe	e68b3840e812c6c5
+14	3654	7951435370040004	test/CMakeFiles/runGlobalTests.dir/test_global.cpp.obj	24d7fa3830a7daef
+3654	9422	7951435406433136	test/runGlobalTests.exe	ec0adec3305faad1
+10	4471	7951444504136747	test/CMakeFiles/runGlobalTests.dir/test_global.cpp.obj	24d7fa3830a7daef
+4472	11047	7951444548750731	test/runGlobalTests.exe	ec0adec3305faad1
