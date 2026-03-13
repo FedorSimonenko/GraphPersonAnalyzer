@@ -26,9 +26,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8079de0-50e5-4f10-a47d-ab5484ce0240" name="Changes" comment="Global (small 1 edition) Refactor of main.cpp">
+    <list default="true" id="b8079de0-50e5-4f10-a47d-ab5484ce0240" name="Changes" comment="Global (small 2nd edition) Refactor of main.cpp">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/app/CMakeFiles/GraphPersonApp.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/app/CMakeFiles/GraphPersonApp.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/app/GraphPersonApp.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/app/GraphPersonApp.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +164,7 @@
       <workItem from="1773330300484" duration="23665000" />
       <workItem from="1773361796704" duration="2018000" />
       <workItem from="1773363841631" duration="6195000" />
-      <workItem from="1773411255645" duration="6616000" />
+      <workItem from="1773411255645" duration="10845000" />
     </task>
     <task id="LOCAL-00001" summary="delete function for sharing filters">
       <option name="closed" value="true" />
@@ -209,7 +214,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773430615980</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Global (small 2nd edition) Refactor of main.cpp">
+      <option name="closed" value="true" />
+      <created>1773430913675</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1773430913675</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,7 +250,8 @@
     <MESSAGE value="main small refactor" />
     <MESSAGE value="Global Refactor of main.cpp" />
     <MESSAGE value="Global (small 1 edition) Refactor of main.cpp" />
-    <option name="LAST_COMMIT_MESSAGE" value="Global (small 1 edition) Refactor of main.cpp" />
+    <MESSAGE value="Global (small 2nd edition) Refactor of main.cpp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Global (small 2nd edition) Refactor of main.cpp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
