@@ -26,16 +26,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8079de0-50e5-4f10-a47d-ab5484ce0240" name="Changes" comment="refactor max/min parameters in Person">
+    <list default="true" id="b8079de0-50e5-4f10-a47d-ab5484ce0240" name="Changes" comment="main small refactor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GraphPersonAnalyzer.dir/src/core/Person.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GraphPersonAnalyzer.dir/src/core/Person.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/app/CMakeFiles/GraphPersonApp.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/app/CMakeFiles/GraphPersonApp.dir/main.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/app/GraphPersonApp.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/app/GraphPersonApp.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libGraphPersonAnalyzer.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libGraphPersonAnalyzer.a" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +164,7 @@
       <workItem from="1773330300484" duration="23665000" />
       <workItem from="1773361796704" duration="2018000" />
       <workItem from="1773363841631" duration="6195000" />
-      <workItem from="1773411255645" duration="47000" />
+      <workItem from="1773411255645" duration="5892000" />
     </task>
     <task id="LOCAL-00001" summary="delete function for sharing filters">
       <option name="closed" value="true" />
@@ -192,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773371359007</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="main small refactor">
+      <option name="closed" value="true" />
+      <created>1773411339546</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1773411339546</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,7 +223,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="delete function for sharing filters" />
     <MESSAGE value="refactor max/min parameters in Person" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor max/min parameters in Person" />
+    <MESSAGE value="main small refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="main small refactor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
