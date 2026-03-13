@@ -437,7 +437,7 @@ public:
         std::cout << "\nBuilt route: ";
         for (size_t i = 0; i < path.size(); ++i) {
             std::cout << path[i];
-            if (i < path.size() - 1) std::cout << " → ";
+            if (i < path.size() - 1) std::cout << " -> ";
         }
         std::cout << "\n";
     }
