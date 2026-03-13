@@ -94,27 +94,6 @@ int main() {
             std::cout << "The file was not found, this is normal for the test" << std::endl;
         }
 
-        std::cout << "\n=== Variant Testing ===" << std::endl;
-        std::variant<int, double, std::string> result;
-        result = 42;
-        std::cout << "Result (int): " << std::get<int>(result) << std::endl;
-        result = 3.14;
-        std::cout << "Result (double): " << std::get<double>(result) << std::endl;
-
-        auto visitor = [](auto&& arg) {
-            using T = std::decay_t<decltype(arg)>;
-            if constexpr (std::is_same_v<T, int>) {
-            std::cout << "The user found int: " << arg << std::endl;
-        } else if constexpr (std::is_same_v<T, double>) {
-            std::cout << "The user found double: " << arg << std::endl;
-        } else if constexpr (std::is_same_v<T, std::string>) {
-            std::cout << "The user found string: " << arg << std::endl;
-        }
-        };
-
-        result = std::string("hello");
-        std::visit(visitor, result);
-
     } catch (const GraphAnalyzerException& e) {
         std::cerr << "Analyzer error: " << e.what() << std::endl;
         return 1;
